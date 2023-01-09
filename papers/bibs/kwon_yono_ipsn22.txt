@@ -1,0 +1,7 @@
+@inproceedings{kwon_yono_ipsn22,
+  title={YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers},
+  author={Kwon, Young D. and Chauhan, Jagmohan and Mascolo, Cecilia},
+  booktitle={Proceedings of the 21th International Conference on Information Processing in Sensor Networks},
+  year={2022},
+  series = {IPSN '22}
+}

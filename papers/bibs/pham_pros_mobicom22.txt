@@ -1,0 +1,7 @@
+@inproceedings{pham_pros_mobicom22,
+  title={PROS: an Efficient Pattern-Driven Compressive Sensing Framework for Low-Power Biopotential-based Wearables with On-chip Intelligence},
+  author={Nhat Pham, Hong Jia, Minh Tran, Tuan Dinh, Nam Bui, Young D. Kwon, Dong Ma, VP Nguyen, Cecilia Mascolo, Tam Vu},
+  booktitle={Proceedings of The 28th Annual International Conference On Mobile Computing And Networking},
+  year={2022},
+  series = {MobiCom '22}
+}

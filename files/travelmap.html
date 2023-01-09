@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Young D. Kwon | Travel Map @ Computer Laboratory, University of Cambridge</title>
+        <meta name="description" content="Young D. Kwon's Travel Map">
+        <meta name="author" content="Young D. Kwon">
+
+		<!--Mobile Specific Metas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!--CSS-->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans:300italic,300,400italic,400,700' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+        </style>
+		<link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="76x76" href="../images/favicon_package/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_package/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon_package/favicon-16x16.png">
+        <link rel="manifest" href="../images/favicon_package/site.webmanifest">
+        <link rel="mask-icon" href="../images/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+		<!--Script-->
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130561276-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-130561276-1');
+		</script>
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:1141860,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+
+        <!--Travel Map Specific JS-->
+        <script type='text/javascript' src='https://www.google.com/jsapi'>
+        </script>
+
+        <script type='text/javascript'>
+            google.load('visualization', '1', {'packages': ['geochart']});
+            google.setOnLoadCallback(drawRegionsMap);
+
+            function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([['Country', 'Counts'],
+                ['South Korea', 5],
+                ['Hong Kong', 5],
+                ['United Kingdom', 5],
+                ['United States', 3],
+                ['Turkey', 3],
+                ['China', 3],
+                ['Taiwan', 3],
+                ['Finland', 2],
+                ['Macau', 2],
+                ['Japan', 2],
+                ['Canada', 2],
+                ['Malaysia', 2],
+                ['Singapore', 2],
+                ['Philippines', 2],
+                ['Thailand', 2],
+                ['Vietnam', 2],
+                ['Estonia', 2],
+                ['Hungary', 2],
+                ['Czech Republic', 2],
+                ['Austria', 2],
+                ['Russia', 1]
+            ]);
+            var options = {};
+            var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+            var options = {width: 900, height: 561, colors:['green','blue']};
+            chart.draw(data, options);
+            };
+        </script>
+
+        <style type="text/css">
+            html, body {height: 100%;margin: 3vmin;padding: 0;}
+            body {color:black;text-indent:10px;font-size:20px;font-family:"Cambria", Cambria, Monospace;font-weight:bold;}
+            img#bg {position: fixed;top: 0;left: 0;width: 100%;height: 100%;}
+            #content {position: relative;z-index: 1;}
+        </style>
+
+    </head>
+    <body>
+        <!--<a href="index.html"><img src="img/logo.jpg" border="0"></a>-->
+        <h3>Countries I have visited</h3>
+        <div id="chart_div" style="text-align:center;"></div>
+        <br>
+        Counts={ <br>
+        1:just the airport, <br>
+        2:less than a week, <br>
+        3:more than a week but less than a month, <br>
+        4:more than a month but less than a year, <br>
+        5:more than a year}<br>
+
+        <hr>
+        <br>
+        In a list (sorted by time spent there):
+
+        <div class="row-fluid">
+		<div class="span12">
+            <tab2>
+                <ol>
+                    <li> South Korea </li>
+                    <li> Hong Kong </li>
+                    <li> United Kingdom </li>
+                    <li> United States </li>
+                    <li> Turkey </li>
+                    <li> China </li>
+                    <li> Taiwan </li>
+                    <li> Finland </li>
+                    <li> Macau </li>
+                    <li> Japan </li>
+                    <li> Canada </li>
+                    <li> Malaysia </li>
+                    <li> Singapore </li>
+                    <li> Philippines </li>
+                    <li> Thailand </li>
+                    <li> Vietnam </li>
+                    <li> Estonia </li>
+                    <li> Hungary </li>
+                    <li> Czech Republic </li>
+                    <li> Austria </li>
+                    <li> Russia </li>
+                </ol>
+            </tab2>
+        </div>
+        </div>
+     </body>
+ </html>

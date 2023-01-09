@@ -1,0 +1,7 @@
+@book{kwon_master_thesis20,
+    year = {2020},
+    title = {Geographical engagement and churn prediction in location-based social networks},
+    language = {eng},
+    author = {Kwon, Young Dae},
+    keywords = {Location-based services},
+}

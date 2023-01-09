@@ -1,0 +1,7 @@
+@article{chauhan_on-device-fsl_euspico22,
+	author = {Chauhan, Jagmohan and Kwon, Young D. and Mascolo, Cecilia},
+	title = {Exploring On-Device Learning Using Few Shots for Audio Classification},
+	year = {2022},
+	journal = {Proc. EUSIPCO},
+	keywords = {Few Shot Learning, Acoustic Event Classification, Keyword Spotting, On-Device Learning, Performance}
+}

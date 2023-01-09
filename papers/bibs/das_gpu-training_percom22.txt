@@ -1,0 +1,6 @@
+@article{das2022enabling,
+  title={Enabling On-Device Smartphone GPU based Training: Lessons Learned},
+  author={Das, Anish and Kwon, Young D. and Chauhan, Jagmohan and Mascolo, Cecilia},
+  journal={arXiv preprint arXiv:2202.10100},
+  year={2022}
+}

@@ -1,0 +1,414 @@
+/*@import url('https://fonts.googleapis.com/css?family=Barlow:100,300,500,700');*/
+
+/*  ==========================================================================
+    Author's custom styles
+    ========================================================================== */
+
+@import url("fontello/css/fontello.css");
+
+body{
+	font-family:"Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Tahoma, sans-serif;
+	font-size:0.9em;
+	margin:1em;
+	max-width: 940px;
+	/*font-weight: 300;*/
+	/*width: 940px;*/
+	/*background-color:#D9CE92;*/
+	/*color:#3D3535;*/
+}
+
+/*  ==========================================================================
+    General Rules
+	========================================================================== */
+
+h3 {
+	margin:0;
+	font-size:1.3em;
+	line-height:1.5em;
+}
+
+a:link{
+	/*color:#61748C;*/
+	/*color: #5f82be;*/
+	/*color: #5396dc;*/
+	font-weight:bold;
+}
+
+a:visited{
+	/*color:#61748C;*/
+	/*color: #5f82be;*/
+	/*color: #5396dc;*/
+}
+
+a:hover, a:focus, a:active{
+	color:#800000;
+	background-color: #E3E0D1;
+}
+
+img:hover{
+	background-color: white;
+}
+
+.active{
+	font-weight:bold;
+	color:#000000;
+}
+
+.inactive a{
+	color:#aaaaaa;
+	font-weight:normal !important;
+}
+
+.abstract, .artifacts, .tags{
+	font-size:0.9em;
+	line-height:1.4em;
+}
+
+
+/*  ==========================================================================
+    Left Sidebar
+	========================================================================== */
+#left{
+	margin: 0 0 1.5em 0;
+	position: fixed;
+	/*max-width:200px; */
+}
+
+@media (max-width: 767px) {
+	#left{
+		position: relative;
+	}
+}
+
+#left .name-display {
+	margin-top: -0.5em;
+	margin-bottom: 1em;
+}
+
+#left .name-display a{
+	color: black;
+	font-weight: normal;
+}
+
+#left .name-display a:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+#left .profile {
+	width: 12em;
+}
+
+#last-update{
+	font-size:smaller;
+}
+
+
+#right{
+	max-width:600px;
+	margin: 1.5em 0.5em 0 1.5em;
+/*	width:650px;*/
+}
+
+
+
+/*  ==========================================================================
+ 	Main Page
+	========================================================================== */
+/*
+#menu{
+	margin-top:0.5em;
+	margin-bottom:1.5em;
+}
+*/
+
+.section{
+	font-size:1.5em;
+	font-weight:bold;
+	margin-top:1.5em;
+	margin-bottom:0.5em;
+}
+
+#student-main .section:first-child, #research-main .section:first-child, #fun-main .section:first-child{
+	margin-top:0em;
+}
+
+#main{
+
+}
+
+#travel-talks li.past {
+	color: #aaa;
+}
+
+#travel-talks li.past a, #travel-talks li.past a:link, #travel-talks li.past a:visited{
+	color: #aaa;
+}
+
+.jobmarket{
+	padding: 0.5em;
+	background-color: #f6f6f6;
+}
+
+.news li , .past li{
+	padding: 0.4em;
+}
+
+.news-content{
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+.news li [class*="span"], .past li [class*="span"]{
+	min-height: 0; /* row-fluid has min-height of 30px. overriding that. */
+}
+
+.news li:nth-child(odd), .past li:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+
+.news-date{
+	color: #777777;
+}
+
+.news .collapsed{
+	display: none;
+}
+
+.info li {
+	line-height: 16px;
+}
+
+#news-expand-button{
+	font-family:"Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.list ul{
+	margin-left: 0.5em;
+}
+
+.list li{
+	margin-left: -0.5em;
+	/*font-size:0.9em;*/
+	line-height: 1.5em;
+	list-style-type:none;
+}
+
+.see-all {
+	font-size: 0.7em;
+	text-transform: uppercase;
+	color: #888;
+}
+
+
+award {
+   /*font: 15px/24px 'opensans-regular', sans-serif;*/
+	font-family: 'opensans-regular', sans-serif;
+	color: #f2850e;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+tab0 { padding-left: 1em; }
+tab02 { padding-left: 2em; }
+tab03 { padding-left: 3em; }
+tab1 { padding-left: 4em; }
+tab2 { padding-left: 8em; }
+tab3 { padding-left: 12em; }
+tab4 { padding-left: 16em; }
+tab5 { padding-left: 20em; }
+tab6 { padding-left: 24em; }
+tab7 { padding-left: 28em; }
+tab8 { padding-left: 32em; }
+tab9 { padding-left: 36em; }
+tab10 { padding-left: 40em; }
+tab11 { padding-left: 44em; }
+tab12 { padding-left: 48em; }
+tab13 { padding-left: 52em; }
+tab14 { padding-left: 56em; }
+tab15 { padding-left: 60em; }
+tab16 { padding-left: 64em; }
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+
+/*  ==========================================================================
+ 	Education
+	========================================================================== */
+
+.edu-left img{
+	margin-left: auto;
+	margin-right: auto;
+	/*margin: auto;*/
+	display: block;
+}
+
+
+
+/*  ==========================================================================
+ 	Publications
+	========================================================================== */
+
+.pub-section{
+	margin-left: 0;
+}
+
+.pub-section:first-child{
+	margin-top:0em;
+}
+
+.publication .author{
+	font-weight: bold;
+}
+
+.publication .title{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.publication .venue{
+	font-style: italic;
+	margin-right: 5px;
+}
+
+.publication .toappear{
+	font-style: italic;
+	margin-right: 5px;
+}
+
+.publication .material{
+	/*margin-left: 3px;
+	margin-right: 3px;*/
+}
+
+.publication .material a{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.publication{
+	margin-left: 0;
+}
+
+.publication li {
+	line-height: 18px;
+	margin-bottom: 14px;
+	/*margin-left:-10px;*/
+	font-size: 12px;
+	list-style-type: none;
+}
+
+.publication li.anchored {
+	/*box-shadow: 3px 3px 15px #666;*/
+	background: #E8E8E8;
+}
+
+.publication .award{
+  background-color: #e0e0e0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+}
+/*  ==========================================================================
+ 	Projects
+	========================================================================== */
+
+#project-list, #cv-list{
+	margin-left:0px;
+	padding-left:5px;
+	list-style-type:none;
+}
+
+li{
+	margin-bottom:5px;
+}
+
+#project-list li:before, #cv-list li:before, .list li:before, .publication li:before{
+	/*content: "\00BB \0020";*/
+}
+
+/* PROJECTS PAGE */
+#project {
+
+}
+
+.project-entry:hover {
+	/*background-color: #f8f8f8;*/
+}
+
+.project-entry {
+	/* image size */
+	clear: both;
+	min-height: 5em;
+	margin-bottom: 1.5em;
+}
+
+.project-entry h4 {
+	font-size: 1.2em;
+}
+
+.project-entry img{
+	width: 100%;
+	/*width: 96px;*/
+	/*height: 100%;*/
+
+	/*max-height: 7em;*/
+	/*max-height:160px;*/
+	/*margin-right:10px;
+	margin-top:25px;
+	margin-bottom:10px;*/
+	margin: 1em 0 0 0;
+	border-radius: 0.5em;
+	border: 0.1em solid #dddddd;
+	box-shadow: 0 0 0.1em 0.1em #dddddd;
+	padding: 0.2em;
+}
+
+.project-entry .project-left{
+	float:left;
+	text-align: center;
+}
+
+.project-entry .project-right{
+	float: left;
+	max-width: 430px;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+	padding-left: 0.5em;
+}
+
+.project-entry .author{
+	font-weight:bold;
+}
+
+/*  ==========================================================================
+ 	CV
+	========================================================================== */
+
+.cv-content {
+	margin-right: 135px;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.cv-margin {
+	font-size:smaller;
+	float: right;
+	margin-left: 1.5em;
+	padding-right: 0.5em;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+

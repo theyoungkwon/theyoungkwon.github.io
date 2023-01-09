@@ -1,3 +1,1053 @@
-Hellow World
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Young D. Kwon | On-device ML and Continual Learning @ Computer Laboratory, University of Cambridge</title>
+        <meta name="description" content="Young D. Kwon is a graduate student in Computer Science. He studies On-device ML and Contiual Learning by focusing on resource-constrained mobile systems to enable the context-aware adaptation to the changing environments.">
+        <meta name="author" content="Young D. Kwon">
 
-new config
+		<!--Mobile Specific Metas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!--CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans:300italic,300,400italic,400,700' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+        </style>
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- Favicons -->
+        <!-- <link rel="apple-touch-icon" sizes="76x76" href="images/favicon_package_hkust/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package_hkust/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package_hkust/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon_package_hkust/site.webmanifest">
+        <link rel="mask-icon" href="images/favicon_package_hkust/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff"> -->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_package_cam/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package_cam/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package_cam/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon_package_cam/site.webmanifest">
+		<link rel="mask-icon" href="images/favicon_package_cam/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+
+		<!--Script-->
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130561276-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-130561276-1');
+		</script>
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:1141860,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+    </head>
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--<body>-->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container-fluid">
+            <!-- Example row of columns -->
+            <div class="row-fluid">
+                <div class="span4">
+                    <div id="left">
+						<h2 class="name-display"><a href="//www.youngkwon.org/"><em>Young D. Kwon</em></a>
+						</h2>
+						<ul class="nav">
+		                    <li class="active"><a href="#">Home</a></li>
+		                    <li class="inactive"><a href="research.html">Research</a></li>
+		                    <li class="inactive"><a href="projects.html">Projects</a></li>
+		                    <li class="inactive"><a href="bio.html">Bio</a></li>
+		            	</ul>
+						<!-- <img class="profile" src="images/Me/1712_IMG_Young.jpg" alt="profile photo"><br /><br /> -->
+						<img class="profile" src="images/Me/1910_profile_pic.jpg" alt="profile photo"><br /><br />
+					    Ph.D. Student<br/>
+					    <a href="https://www.cl.cam.ac.uk/" target="_blank">Computer Laboratory</a><br>
+				        <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a><br/><br/>
+					    <!-- <a href="files/CV_Young.html">Curriculum Vitae (PDF)</a> -->
+
+						<!--<p><b>Contact:</b> ydkwon&lt;at&gt;cse.ust.hk<br>-->
+						<!--<a href="https://www.ust.hk/" target="_blank">-->
+						  <!--<img src="images/logo-hkust.png" style='width:90%;' border="0" alt="Null" align="top">-->
+						<!--</a><br>-->
+						<!--</p>-->
+					    <div class="logo-wrapper">
+                            <a href="index.html#want-to-meet">Want to Meet?</a><br>
+                            <b>Contact:</b> ydk21&lt;at&gt;cam.ac.uk<br>
+                            <a href="https://www.cam.ac.uk/" target="_blank">
+						  		<img src="images/cam_logo.png" width="100px">
+							</a><br>
+							
+							<!--<a href="http://kixlab.org/">-->
+					    		<!--<img src="images/KIXLAB_full_light_hr_nobg.png" width="130px" style="margin-left:10px"/>-->
+					    	<!--</a>-->
+						    <!--<br/>-->
+						    <!--<a href="https://cs.kaist.ac.kr/"><img src="images/soc-kaist-logo.png" width="150px"/></a>-->
+						    <!--<br/>-->
+						    <!--<a href="http://hci.kaist.ac.kr/"><img src="images/hci-kaist-logo.png" width="120px"  style="margin-left:15px"/></a>-->
+					    </div>
+
+						<!--<div class="container-fluid text-right"-->
+							<!--<p>-->
+								<!--<small>&copy; 2018 <a href="//www.youngkwon.org/">Young D. Kwon</a> ALL RIGHTS RESERVED</small><br>-->
+								<!--<small>Acknowledgement to <a href="//juhokim.com" target="_blank">Prof. Juho Kim</a></small><br>-->
+								<!--<small><em>Last Updated: Dec 30, 2018</em></small>-->
+							<!--</p>-->
+						<!--</div>-->
+					</div>
+                </div>
+                <div class="span8">
+					<div id="research-main">
+
+						
+						<!--About-->
+					    <div class="row-fluid bio" id="About">
+							<p>
+								I am a Ph.D. student majoring in Computer Science at the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>, where I am supervised by <a href="https://www.cl.cam.ac.uk/~cm542/" target="_blank">Prof. Cecilia Mascolo</a> and funded by <a href="https://www.bell-labs.com/" target="_blank">Nokia Bell Labs</a>. 
+								<!-- I worked with <a href="https://sites.google.com/view/jagmohan-chauhan/home?authuser=0" target="_blank">Dr. Jagmohan Chauhan</a> and <a href="https://www.cl.cam.ac.uk/~cm542/" target="_blank">Prof. Cecilia Mascolo</a> in the summer of 2020 as a research assistant and 2019 as a visitor. Also, I worked as a research assistant with <a href="https://www.cse.ust.hk/faculty/dimitris/" target="_blank">Prof. Dimitris Papadias</a> at <a href="https://www.ust.hk/" target="_blank">HKUST</a> from February 2020 to June 2020. -->
+							</p>
+							<!-- <br> -->
+
+							<!-- <p>
+								I received my M.Phil. in Computer Science and Engineering from <a href="https://www.ust.hk/" target="_blank">HKUST</a>, where I was advised by <a href="https://www.cse.ust.hk/~panhui/" target="_blank">Prof. Pan Hui</a> and <a href="http://www.cse.ust.hk/~raywong/" target="_blank">Prof. Raymond Wong</a>. I received my B.S. in Semiconductor Systems Engineering from <a href="https://www.skku.edu/eng/" target="_blank">SKKU</a>, where <a href="http://iislab.skku.edu/iish/" target="_blank">Prof. Jee-Hyong Lee</a> advised me.
+							</p> -->
+							<!-- <br> -->
+
+							<p>
+								<!--His research interests include Mobile and Social Computing, Human-Computer Interaction, Natural Language Processing, Social Network Analysis, Machine Learning.-->
+								<!-- The critical component of my research is to better understand, model, and predict users' behaviors at scale in both online and offline platforms. Also, I focus on resource-constrained mobile systems to enable the context-aware adaptation to the changing environments (e.g., new inputs and users) in real-time. -->
+
+								My research focuses on <b>resource-constrained</b> mobile systems to enable <b>context-aware adaptation</b> to the changing environments (e.g., new inputs and users) in real-time while preserving privacy. To this end, I develop new methods and systems and leverage knowledge from <b>On-Device Machine Learning, Continual Learning, and Multi-Task Learning</b>.
+
+								<!-- To this end, I leverage computational methods from on-device machine learning, continual learning, and network science. -->
+
+								<!-- My research in Ubiquitous and Social Computing attempts <b>to better understand, model, and predict users' behaviors at scale</b> in both online and offline platforms. I also focus on resource-constrained mobile systems <b>to enable context-aware adaptation to the changing environments</b> (e.g., new inputs and users) in real-time while preserving privacy. I leverage computational methods from machine learning, natural language processing, and social network analysis. -->
+
+								<!-- His research focus on Ubiquitous and Social Computing is to better <b>understand user behaviors</b> at scales in online and offline platforms to improve <b>human well-being</b> and build <b>robust social systems</b>. He leverages computational methods from machine learning, natural language processing, and social network analysis. -->
+							</p>
+
+
+							<br>
+							<a href="#" id="want-to-meet">Want to Collaborate?</a><br>
+							If you're interested in working with me, please contact me so we can have a chat.<br> I always love to interact and collaborate with brilliant minds.
+					    </div>
+						<br>
+
+
+
+						<!-- Contact Info -->
+						<div class="row-fluid info">
+						    <div class="span6">
+							    <h3 id="contact-info">Contact Info</h3>
+							    <small>
+								<a href="mailto:ydk21@cam.ac.uk">ydk21&lt;at&gt;cam.ac.uk</a><br />
+								<a href="https://scholar.google.com/citations?hl=en&user=_rp_S9MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a><br />
+								<a href="https://github.com/theyoungkwon" target="_blank">GitHub</a><br />
+								<a href="https://www.linkedin.com/in/theyoungkwon/" target="_blank">LinkedIn</a><br />
+								<!-- <a href="http://mcpanic.com/">Blog (in Korean)</a><br /> -->
+								</small>
+						    </div>
+							<!-- <div class="span6">							
+								<strong>Want to meet?</strong>
+								<br/>
+								<small>
+								<a href="schedule.html">Schedule</a><br/>
+								Office hours: by appointment<br/><br/>
+							    N1 Room 605, KAIST
+							    <br/>
+							    291 Daehak-ro, Yuseong-gu
+							    <br/>
+							    Daejeon, Korea 34141
+							    <br/>
+							    Tel: (+82)-042-350-3570	
+								</small>							
+								<br/>		
+							</div> -->
+					  	</div>
+					  	<br>
+
+
+
+					  	<!-- News -->
+					  	<div class="row-fluid">
+						<div class="span12 list">
+							<!-- <div class="section">News<span class="see-all">(<a href="log.html#news">See All</a>)</span></div> -->
+							<h3>News & Travel</h3>
+							<ul class="news">
+
+								<li class="row-fluid">
+                                    <span class="news-date span3">Sep, 2022</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/vallapuram_causal_asonam22.pdf" target="_blank">"Causal Analysis on the Anchor Store Effect in a Location-based Social Network"</a> is accepted to ASONAM 2022 <font color="red">[Paper]</font></span>
+                                </li>
+
+								<li class="row-fluid">
+                                    <span class="news-date span3">Aug, 2022</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/pham_pros_mobicom22.pdf" target="_blank">"PROS: an Efficient Pattern-Driven Compressive Sensing Framework for Low-Power Biopotential-based Wearables with On-chip Intelligence"</a> is accepted to MobiCom 2022 <font color="red">[Paper]</font></span>
+                                </li>
+
+                                <li class="row-fluid">
+									<span class="news-date span3">Jun, 2022</span>
+									<span class="news-content span9">I plan to attend and present my recent work regarding efficient continual learning in mobile computing in <a href="https://mobiuk.org/2022/" target="_blank">MobiUK 2022</a> at UCL on 4-5th July. See you all soon there!</span>
+                                </li>
+
+                                <li class="row-fluid">
+									<span class="news-date span3">May, 2022</span>
+									<span class="news-content span9">I am invited to serve as a Shadow PC member for <a href="https://sensys.acm.org/2022/shadow/" target="_blank">ACM SenSys 2022</a>.</span>
+                                </li>
+
+								<li class="row-fluid">
+                                    <span class="news-date span3">May, 2022</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/das_gpu-training_percom22.pdf" target="_blank">"Exploring On-Device Learning Using Few Shots for Audio Classification"</a> is accepted to EUSIPCO 2022 <font color="red">[Paper]</font></span>
+                                </li>
+
+								<li class="row-fluid">
+                                    <span class="news-date span3">Feb, 2022</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/shatilov_myokey_tmc22.pdf" target="_blank">"MyoKey: Inertial Motion Sensing and Gesture-based QWERTY Keyboard for Extended Realities"</a> is accepted to TMC <font color="red">[Paper]</font></span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Feb, 2022</span>
+                                    <span class="news-content span9">I have been invited to give a talk about YONO (our recent IPSN paper) at KMA</span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Jan, 2022</span>
+                                    <span class="news-content span9">I have been invited to give 2 talks regarding on-device continual leanring and multi-task learning on heterogeneous DNNs at KAIST</span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Jan, 2022</span>
+                                    <span class="news-content span9">I visited Prof. Lik-Hang Lee's <a href="https://www.lhlee.com/arm-lab" target="_blank">ARM LAB</a> at KAIST for a month</span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Jan, 2022</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/kwon_yono_ipsn22.pdf" target="_blank">"YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers"</a> is accepted to IPSN 2022 <font color="red">[Paper]</font></span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Jan, 2022</span>
+                                    <span class="news-content span9">Mentored students' paper <a href="papers/articles/das_gpu-training_percom22.pdf" target="_blank">"Enabling On-Device Smartphone GPU based Training: Lessons Learned"</a> is accepted to PerFail 2022, co-located with PerCom 2022. <b>Congrats Anish Das</b> <font color="red">[Paper]</font></span>
+                                </li>
+
+                                <li class="row-fluid">
+                                    <span class="news-date span3">Dec, 2021</span>
+                                    <span class="news-content span9">Our paper <a href="papers/articles/kwon_exploring_sec21.pdf" target="_blank">"Exploring System Performance of Continual Learning for Mobile and Embedded Sensing Applications"</a> won the <font color="red"><b>Best Paper Award</b></font> at SEC 2021</span>
+                                </li>
+								
+							</ul>
+							<font color="#aaaaaa">(<a href="log.html">View All</a>)</font>
+						</div>
+					    </div>
+					    <hr>
+						<br>
+
+
+						<!-- <div class="row-fluid">
+							<div class="span12">
+								<div class="section">Travel
+									<span class="see-all">(<a href="log.html#travel">See All</a>)</span>
+								</div>
+								<small><ul id="travel-talks">
+									<li><em>2019.6.19</em>: <a href="https://www.facebook.com/ClovaAI/posts/2024731014502124">KAIST-NAVER Clova AI Workshop</a>. Speaker.</li>
+									<li class="past"><em>2019.2.13-2019.2.15</em>: <a href="http://conference.hcikorea.org/hcik2019/">HCI Korea 2019</a>, Jeju, Korea. Doctoral Consortium co-chair.</li>
+								</ul></small>
+							</div>
+						  </div> -->
+
+
+						<!--Education-->
+
+						<!-- <div class="row-fluid">
+							<div class="span12">
+								<div class="section">Education</div>
+						
+                                <div class="media">
+									<span class="pull-left edu-left span2"><img src="./images/cam_symbol.png" height=auto width=80% /></span>
+									<div class="media-body">
+										<p>
+											<a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a><br>
+											<i>Ph.D. in Computer Science</i>
+											&middot; Oct. 2020 ~ Present<br>
+											<i>Visiting Research Student in the Mobile Systems Group, Computer Laboratory</i>
+											&middot; Jul. 2019 ~ Dec. 2019
+											<br>
+										</p>
+									</div>
+								</div>
+
+								<div class="media">
+									<div class="pull-left edu-left span2"><img src="./images/HKUST_symbol.png" height=auto width=60% /></div>
+									<div class="media-body">
+										<p>
+											<a href="https://www.ust.hk/" target="_blank">HKUST</a><br>
+											<i>M.Phil. in Computer Science and Engineering</i>
+											&middot; Sep. 2017 ~ Jan. 2020<br>
+											<i>Thesis: Geographical Engagement and Churn Prediction in Location-Based Social Networks</i><br>
+											&bull; Total GPA: 4.0 / 4.3<br>
+											<i>Exchange Student Program in School of Engineering</i>
+											&middot; Jun. 2014 ~ May. 2015
+											<br>
+										</p>
+									</div>
+								</div>
+
+								<div class="media">
+									<div class="pull-left edu-left span2"><img src="./images/SKKU_symbol0.jpg" height=auto width=100% /></div>
+									<div class="media-body">
+										<p>
+											<a href="https://www.skku.edu/eng" target="_blank">SKKU</a><br>
+											<i>B.S. in Semiconductor Systems Engineering</i>
+											&middot; Mar. 2010 ~ Aug. 2016
+											<br>
+											&bull; <b>Valedictorian</b> in the college of Information and Communication Engineering (ICE)<br>
+											&bull; Major GPA: <b>4.38 / 4.5</b> | Total GPA: 4.26 / 4.5<br>
+										</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<hr>
+						<br> -->
+
+
+						<!--Publications-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Selected Publications</div>
+								<ul>
+									
+									<li id="publication-yono">
+									<p>
+										<b>YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Jagmohan Chauhan, and Cecilia Mascolo</font><br>
+										<i><font color="red">IPSN 2022</font></i>
+										| <a href="papers/articles/kwon_yono_ipsn22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/kwon_yono_ipsn22.txt" target="_blank">BibTex</a>
+									</p></li>
+
+									<li id="publication-pros">
+									<p>
+										<b>PROS: an Efficient Pattern-Driven Compressive Sensing Framework for Low-Power Biopotential-based Wearables with On-chip Intelligence</b><br>
+										<font color="#aaaaaa">Nhat Pham, Hong Jia, Minh Tran, Tuan Dinh, Nam Bui, <font color="#000000"><u>Young D. Kwon</u></font>, Dong Ma, VP Nguyen, Cecilia Mascolo, Tam Vu</font><br>
+										<i><font color="red">MobiCom 2022</font></i>
+										| <a href="papers/articles/pham_pros_mobicom22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/pham_pros_mobicom22.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/10.1145/3495243.3560533" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-few-shot">
+									<p>
+										<b>Exploring On-Device Learning Using Few Shots for Audio Classification</b><br>
+										<font color="#aaaaaa">Jagmohan Chauhan, <font color="#000000"><u>Young D. Kwon</u></font>, and Cecilia Mascolo</font><br>
+										<i><font color="red">EUSIPCO 2022</font></i>
+										| <a href="papers/articles/chauhan_on-device-fsl_euspico22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/chauhan_on-device-fsl_euspico22.txt" target="_blank">BibTex</a>
+									</p></li>
+
+									<li id="publication-myokey">
+									<p>
+										<b>MyoKey: Inertial Motion Sensing and Gesture-based QWERTY Keyboard for Extended Realities</b><br>
+										<font color="#aaaaaa">Kirill A. Shatilov, <font color="#000000"><u>Young D. Kwon</u></font>, Lik-Hang Lee, Dimitris Chatzopoulos, and Pan Hui</font><br>
+										<i><font color="red">TMC</font></i>
+										| <a href="papers/articles/shatilov_myokey_tmc22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/shatilov_myokey_tmc22.txt" target="_blank">BibTex</a>
+										| <a href="https://ieeexplore.ieee.org/document/9737726" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-anchor">
+									<p>
+										<b>Causal Analysis on the Anchor Store Effect in a Location-based Social Network</b><br>
+										<font color="#aaaaaa">Anish Krishna Vallapuram, <font color="#000000"><u>Young D. Kwon</u></font>, Lik-Hang Lee, Fengli Xu, Pan Hui</font><br>
+										<i><font color="red">ASONAM 2022</font></i>
+										| <a href="papers/articles/vallapuram_causal_asonam22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/vallapuram_causal_asonam22.txt" target="_blank">BibTex</a>
+									</p></li>
+
+									<li id="publication-gpu-training-perfail">
+									<p>
+										<b>Enabling On-Device Smartphone GPU based Training: Lessons Learned</b><br>
+										<font color="#aaaaaa">Anish Das, <font color="#000000"><u>Young D. Kwon</u></font>, Jagmohan Chauhan, and Cecilia Mascolo</font><br>
+										<i><font color="red">PerFail (PerCom 2022 Workshop)</font></i>
+										| <a href="papers/articles/das_gpu-training_percom22.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/das_gpu-training_percom22.txt" target="_blank">BibTex</a>
+										| <a href="https://arxiv.org/abs/2202.10100" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-cl-benchmark">
+									<p>
+										<b>Exploring System Performance of Continual Learning for Mobile and Embedded Sensing Applications</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Jagmohan Chauhan, Abhishek Kumar, Pan Hui, and Cecilia Mascolo</font><br>
+										<i><font color="red">SEC 2021</font></i>
+										| <a href="papers/articles/kwon_exploring_sec21.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/kwon_exploring_sec21.txt" target="_blank">BibTex</a>
+										| <a href="https://arxiv.org/abs/2110.13290" target="_blank">Link</a>
+										<br><award><b>Best Paper Award</b></award>
+									</p></li>
+
+									<li id="publication-ibsp">
+									<p>
+										<b>Interpretable Business Survival Prediction</b><br>
+										<font color="#aaaaaa">Anish Krishna Vallapuram, Nikhil Nanda, <font color="#000000"><u>Young D. Kwon</u></font>, and Pan Hui</font><br>
+										<i><font color="red">ASONAM 2021</font></i>
+										| <a href="papers/articles/vallapuram_interpretable_asonam21.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/vallapuram_interpretable_asonam21.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/abs/10.1145/3487351.3488353" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-ain">
+									<p>
+										<b>IAN: Interpretable Attention Network for Churn Prediction in LBSNs</b><br>
+										<font color="#aaaaaa">Liang-Yu Chen, Yutong Chen, <font color="#000000"><u>Young D. Kwon</u></font>, Youwen Kang, and Pan Hui</font><br>
+										<i><font color="red">ASONAM 2021</font></i>
+										| <a href="papers/articles/chen_ian_asonam21.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/chen_ian_asonam21.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/10.1145/3487351.3488328" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-fasticarl">
+									<p>
+										<b>FastICARL: Fast Incremental Classifier and Representation Learning with Efficient Budget Allocation in Audio Sensing Applications</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Jagmohan Chauhan, and Cecilia Mascolo</font><br>
+										<i><font color="red">Interspeech 2021</font></i>
+										| <a href="papers/articles/kwon_fasticarl_interspeech21.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/kwon_fasticarl_interspeech21.txt" target="_blank">BibTex</a>
+										| <a href="https://www.isca-speech.org/archive/interspeech_2021/kwon21_interspeech.html" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-knowing"><p>
+										<b>Knowing when we do not know: Bayesian continual learning for sensing-based analysis tasks</b><br>
+										<font color="#aaaaaa">Sandra Servia Rodriguez, Cecilia Mascolo, and <font color="#000000"><u>Young D. Kwon</u></font> </font><br>
+										<i><font color="red">arXiv</font></i>
+										| <a href="papers/articles/servia-rodriguez_knowing_arxiv21.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/servia-rodriguez_knowing_arxiv21.txt" target="_blank">BibTex</a>
+										| <a href="https://arxiv.org/abs/2106.05872" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-contauth"><p>
+										<b>ContAuth: Continual Learning Framework for Behavioral-based User Authentication</b><br>
+										<font color="#aaaaaa">Jagmohan Chauhan, <font color="#000000"><u>Young D. Kwon</u></font>, Pan Hui, and Cecilia Mascolo</font><br>
+										<i><font color="red">IMWUT/UbiComp 2021</font></i>
+										| <a href="papers/articles/chauhan_contauth_imwut20.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/chauhan_contauth_imwut20.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/10.1145/3432203" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-aquilis"><p>
+										<b>Aquilis: Using Contextual Integrity for Privacy Protection on Mobile Devices</b><br>
+										<font color="#aaaaaa">Abhishek Kumar, Tristan Braud, <font color="#000000"><u>Young D. Kwon</u></font>, and Pan Hui</font><br>
+										<i><font color="red">IMWUT/UbiComp 2021</font></i>
+										| <a href="papers/articles/kumar_aquilis_imwut20.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/kumar_aquilis_imwut20.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/10.1145/3432205" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-enemy-gate"><p>
+										<b>Enemy at the Gate: Evolution of Twitter User's Polarization During National Crisis</b><br>
+										<font color="#aaaaaa">Ehsan Ul Haq, Tristan Braud, <font color="#000000"><u>Young D. Kwon</u></font>, and Pan Hui</font><br>
+										<i><font color="red">ASONAM 2020</font></i>
+										| <a href="papers/articles/haq_enemy_asonam20.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/haq_enemy_asonam20.txt" target="_blank">BibTex</a>
+									</p></li>
+
+									<li id="publication-survey-comp-politics"><p>
+										<b>A Survey on Computational Politics</b><br>
+										<font color="#aaaaaa">Ehsan Ul Haq, Tristan Braud, <font color="#000000"><u>Young D. Kwon</u></font>, and Pan Hui.</font><br>
+										<i><font color="red">IEEE Access</font></i>
+										| <a href="papers/articles/haq_survey_access20.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/haq_survey_access20.txt" target="_blank">BibTex</a>
+										| <a href="https://ieeexplore.ieee.org/document/9245490" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-percom-wip"><p>
+										<b>MyoKey: Surface Electromyography and Inertial Motion Sensing-based Text Entry in AR</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Kirill A. Shatilov, Lik-Hang Lee, Serkan Kumyol, Kit Yung Lam, Yui-Pan Yau, and Pan Hui</font><br>
+										<i><font color="red">PerCom 2020 WIP</font></i>
+										| <a href="papers/articles/kwon_myokey_percom20.pdf" target="_blank">PDF</a>
+										| <a href="papers/slides/slides_kwon_myokey_percom20.pdf" target="_blank">Slides</a>
+										| <a href="papers/bibs/kwon_myokey_percom20.txt" target="_blank">BibTex</a>
+										| <a href="https://ieeexplore.ieee.org/abstract/document/9156084" target="_blank">Link</a>
+									</p></li>
+
+									<li id="publication-geolifecycle"><p>
+										<b>GeoLifecycle: User Engagement of Geographical Exploration and Churn Prediction in LBSNs</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Dimitris Chatzopoulos, Ehsan Ul Haq, Raymond Chi-Wing Wong, and Pan Hui.</font><br>
+										<i><font color="red">IMWUT/UbiComp 2019</font></i>
+										| <a href="papers/articles/kwon_geolifecycle_imwut19.pdf" target="_blank">PDF</a>
+										| <a href="papers/slides/slides_kwon_geolifecycle_imwut19.pdf" target="_blank">Slides</a>
+										| <a href="papers/bibs/kwon_geolifecycle_imwut19.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/citation.cfm?id=3351250" target="_blank">Link</a>
+									</p></li>
+									
+									<li id="publication-self-disclosure"><p>
+										<b>Effects of Ego Networks and Communities on Self-Disclosure in an Online Social Network</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Reza Hadi Mogavi, Ehsan Ul Haq, Youngjin Kwon, Xiaojuan Ma, and Pan Hui</font><br>
+										<i><font color="red">ASONAM 2019</font></i>
+										| <a href="papers/articles/kwon_self-disclosure_asonam19.pdf" target="_blank">PDF</a>
+										| <a href="papers/slides/slides_kwon_self-disclosure_asonam19.pdf" target="_blank">Slides</a>
+										| <a href="papers/bibs/kwon_self-disclosure_asonam19.txt" target="_blank">BibTex</a>
+										| <a href="https://dl.acm.org/doi/10.1145/3341161.3342881" target="_blank">Link</a>
+										<br><award><b>Oral Presentation, Full Paper Acceptance Rate: 14%</b></award>
+									</p></li>
+
+									<li id="publication-ubicomp"><p>
+										<b>UbiComp/ISWC 2019: A Post-Conference Summary Report</b><br>
+										<font color="#aaaaaa"><font color="#000000"><u>Young D. Kwon</u></font>, Mohammed Khwaja, Neille-Ann H. Tan, Marla Narazani, Mikolaj P. Wozniak, Arshad Nasser, Rahul Majethia, Lucy Van Kleunen, Victoria Neumann, and Rajkarn Singh</font><br>
+										<i><font color="red">IEEE Pervasive Computing, 2019 (Impact Factor: 3.813)</font></i>
+										| <a href="papers/articles/kwon_ubicomp_pervasive19.pdf" target="_blank">PDF</a>
+										| <a href="papers/bibs/kwon_ubicomp_pervasive19.txt" target="_blank">BibTex</a>
+										| <a href="https://ieeexplore.ieee.org/document/8968799?source=authoralert" target="_blank">Link</a>
+									</p></li>
+
+								</ul>
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+						<!--Research Experiences-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Research Experiences</div>
+
+									<p>
+                                        <a href="research.html#research-experiences-7">Incremental Learning on Resource-constrained Devices</a><br>
+                                        <i>Research Assistant (Advisor: <a href="https://sites.google.com/view/jagmohan-chauhan/home?authuser=0" target="_blank">Dr. Jagmohan Chauhan</a> and <a href="https://www.cl.cam.ac.uk/~cm542/" target="_blank">Prof. Cecilia Mascolo</a>
+                                          ) &middot; Jul. 2020 ~ Sep. 2020</i><br>
+                                    </p>
+
+									<p>
+                                        <a href="research.html#research-experiences-6">A Study of Applying Neural Networks on a Database</a><br>
+                                        <i>Research Assistant (Advisor:
+                                        <a href="https://www.cse.ust.hk/faculty/dimitris/" target="_blank">Prof. Dimitris Papadias</a>
+                                          ) &middot; Feb. 2020 ~ Jun. 2020</i><br>
+                                    </p>
+
+									<p>
+                                        <a href="research.html#research-experiences-5">Computer Laboratory at the University of Cambridge</a><br>
+                                        <i>Visiting Research Student (Advisor:
+                                        <a href="https://sites.google.com/view/jagmohan-chauhan/home?authuser=0" target="_blank">Dr. Jagmohan Chauhan</a> and <a href="https://www.cl.cam.ac.uk/~cm542/" target="_blank">Prof. Cecilia Mascolo</a>
+                                          ) &middot; Jul. 2019 ~ Dec. 2019</i><br>
+                                    </p>
+
+									<p>
+                                        <a href="research.html#research-experiences-4">User Engagement Analysis and Churn Prediction with LBSN Datasets</a><br>
+                                        <i>Postgraduate Research Stduent (Advisor:
+                                        <a href="http://www.cse.ust.hk/~raywong/" target="_blank">Prof. Raymond Wong</a>
+                                          and <a href="https://www.cse.ust.hk/~panhui/" target="_blank">Prof. Pan Hui</a>) &middot; Aug. 2018 ~ Present</i><br>
+                                    </p>
+                                    <p>
+                                        <a href="research.html#research-experiences-3">HKUST-DT System and Media Laboratory at HKUST</a><br>
+                                        <i>Postgraduate Research Stduent (Advisor: <a href="https://www.cse.ust.hk/~panhui/" target="_blank">Prof. Pan Hui</a>) &middot; Aug. 2017 ~ Present</i><br>
+                                    </p>
+                                    <p>
+                                        <a href="research.html#research-experiences-2">Information & Intelligence System Lab. at SKKU</a><br>
+                                        <i>Research Intern (Advisor: <a href="http://iislab.skku.edu/iish/members" target="_blank">Prof. Jee-Hyong Lee</a>) &middot; Sep. 2015 - June. 2016</i><br>
+                                    </p>
+                                    <p>
+                                        <a href="research.html#research-experiences-1">Social Network Analysis Project with Social-Attribute Network Dataset of Google+</a><br>
+                                        <i>Undergraduate Research Student (Advisor: <a href="https://www.cse.ust.hk/~panhui/" target="_blank">Prof. Pan Hui</a>) &middot; Feb. 2015 ~ June. 2015</i><br>
+                                    </p>
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+
+						<!--Professional Experiences-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Professional Experiences</div>
+
+									<p>
+										<a href="https://www.samsung.com/semiconductor/" target="_blank">Samsung Electronics Co., Ltd., Memory Business</a><br>
+										<i>Engineer (<b>Full-time Employee</b>)</i>
+										&middot; Jul. 2016 ~ Aug. 2017
+									</p>
+
+									<p>
+										<a href="https://www.samsung.com/semiconductor/" target="_blank">Samsung Electronics Co., Ltd., Memory Business</a><br>
+										<i>Engineering Intern</i>
+										&middot; Jul. 2015 ~ Aug. 2015
+									</p>
+
+									<p>
+										<a href="https://en.wikipedia.org/wiki/Republic_of_Korea_Air_Force" target="_blank">Republic of Korea Air Force, Operational Command, 1st Fighter Wing</a><br>
+										<i>Staff Sergeant</i>
+										&middot; Feb. 2011 ~ Feb. 2013
+									</p>
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+
+						<!--Teaching Experiences-->
+						<div class="row-fluid">
+							<div class="span12 list">
+								<div class="section">Teaching Experiences</div>
+
+								<p><b>Mentorship</b></p>
+								<ul>
+									<li>&nbsp;&bullet;&nbsp; Anish Krishna Vallapuram (HKUST, now at Amazon)</li>
+									<li>&nbsp;&bullet;&nbsp; Nikhil Nanda (Previously at HKUST, now at Columbia University)</li>
+									<li>&nbsp;&bullet;&nbsp; Liang-yu Chen (Previously at HKUST, now at Purdue University)</li>
+									<li>&nbsp;&bullet;&nbsp; Yutong Chen (Previously at HKUST, now at the University of Chicago)</li>
+									<li>&nbsp;&bullet;&nbsp; Youwen Kang (Previously at HKUST, now at Tencent)</li>
+									<li>&nbsp;&bullet;&nbsp; Anish Das (University of Cambridge, now at Goldman Sachs)</li>
+									<li>&nbsp;&bullet;&nbsp; Nav Leelarathna (University of Cambridge)</li>
+									<li>&nbsp;&bullet;&nbsp; Issam Nedjai (University of Cambridge)</li>
+							    </ul>
+							    <br>
+
+								
+								<!-- <ul class="news">
+									<li class="row-fluid">
+										<div class="news-date span3">M.Phil.</div>
+										<div class="news-content span9"><a>Anish Krishna Vallapuram</a></div>
+									</li>
+								</ul> -->
+
+								<p><b>Teaching Assistant</b></p>
+								<ul class="news">
+									<li class="row-fluid">
+										<div class="news-date span3">Michaelmas 2022</div>
+										<div class="news-content span9"><a href="https://www.cl.cam.ac.uk/teaching/2223/ProgC/", target="_blank">Programming in C and C++</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Michaelmas 2021</div>
+										<div class="news-content span9"><a href="https://www.cl.cam.ac.uk/teaching/2122/ProgC/", target="_blank">Programming in C and C++</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Lent 2021</div>
+										<div class="news-content span9"><a href="https://www.cl.cam.ac.uk/teaching/2021/MobSensSys/", target="_blank">Mobile and Sensor Systems</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Michaelmas 2020</div>
+										<div class="news-content span9"><a href="https://www.cl.cam.ac.uk/teaching/2021/R249/", target="_blank">Advanced Topics in Mobile Systems and Mobile Data Machine Learning</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Spring 2020</div>
+										<div class="news-content span9"><a href="https://www.cse.ust.hk/ug/courses/", target="_blank">[COMP 4641] Social Information Network Analysis and Engineering</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Spring 2019</div>
+										<div class="news-content span9"><a href="https://course.cse.ust.hk/comp4021/", target="_blank">[COMP 4021] Internet Computing</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Fall 2018</div>
+										<div class="news-content span9"><a href="https://course.cse.ust.hk/comp1022q/", target="_blank">[COMP 1022Q] Introduction to Computing with Excel VBA</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Spring 2018</div>
+										<div class="news-content span9"><a href="images/projects/ta/RMBI3000B_course_outline.pdf", target="_blank">[RMBI 3000B] Data Analytics with R</a></div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">Spring 2018</div>
+										<div class="news-content span9"><a href="https://prog-crs.ust.hk/ugcourse/2018-19/RMBI", target="_blank">[RMBI 1010] Risk Management in Society</a></div>
+									</li>
+								</ul>
+
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+
+						<!--Invited Talks-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Invited Talks</div>
+									<ul>
+										<li><a href="//english.kma.ac.kr/" target="_blank">[Korea Military Academy]</a>[<b>4 Feb 2022</b>] YONO: All You Need To Represent Multiple Dissimilar Neural Networks on Microcontrollers. Host: Prof. Juhee Kim</li>
+
+										<li><a href="https://www.kaist.ac.kr/en/" target="_blank">[KAIST]</a>[<b>27 Jan 2022</b>] On-device Continual Learning in Mobile Sensing Applications. Host: Prof. Lik-Hang Lee</li>
+										<li><a href="https://www.kaist.ac.kr/en/" target="_blank">[KAIST]</a>[<b>27 Jan 2022</b>] You Only Need One Pair of Codebooks to Represent Multiple Deep Learning Models on Extremely Resouce-Constrained Devices. Host: Prof. Junehwa Song</li>
+										<li><a href="https://www.cst.cam.ac.uk/" target="_blank">[University of Cambridge]</a>[<b>12 Aug 2021</b>] Efficient Continual Learning in Mobile Sensing Applications. Host: Prof. Nicholas D. Lane</li>
+										<li><a href="https://talks.cam.ac.uk/show/index/6330" target="_blank">[University of Cambridge]</a>[<b>3 Dec 2019</b>] An Empirical Study of Lifelong Learning on Mobile Applications. Host: Dr. Seyyed Ahmad Javadi</li>
+										<li><a href="//english.kma.ac.kr/" target="_blank">[Korea Military Academy]</a>[<b>8 Oct 2018</b>] Characterization and Prediction of Churning Users in CQAs and LBSNs. Host: Prof. Seonho Lee</li>
+										<li><a href="https://www.ust.hk/" target="_blank">[HKUST]</a>[<b>5 Jul 2018</b>] Community effects on Self-Disclosure Behaviors of Users in an Online Social Network. Host: Prof. Pan Hui</li>
+								    </ul>
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+						<!--Honors & Awards-->
+						<div class="row-fluid">
+							<div class="span12 list">
+								<div class="section">Honors & Awards</div>
+								<ul class="news">
+
+									<li class="row-fluid">
+										<div class="news-date span2">2021</div>
+										<div class="news-content span10"><award>Best Paper Award</award> at SEC 2021</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2020-2023</div>
+										<div class="news-content span10"><award>Nokia Bell Labs Studentship for PhD Study </award>at the University of Cambridge</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2017-2019</div>
+										<div class="news-content span10"><award>The Postgraduate Studentship for MPhil Study </award>at HKUST</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2014-2016</div>
+										<div class="news-content span10"><award>Samsung Scholarship for Undergraduate Study </award>at SKKU</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2010-2013</div>
+										<div class="news-content span10"><award>National Science and Engineering Undergraduate Scholarship </award>at SKKU</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2016</div>
+										<div class="news-content span10"><award>Honorable Mention</award> at the KIISE conference 2016</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2015</div>
+										<div class="news-content span10"><award>Honorable Mention</award> for undergraduate papers at the KIISE conference 2015</div>
+									</li>
+									
+									<li class="row-fluid">
+										<div class="news-date span2">2021</div>
+										<div class="news-content span10"><award>Travel Grant </award>from SEC</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2021</div>
+										<div class="news-content span10"><award>Interspeech Travel Grant </award>from ISCA</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2019</div>
+										<div class="news-content span10"><award>The Research Travel Grant </award>from HKUST</div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span2">2016</div>
+										<div class="news-content span10">Honored to be a Valedictorian in the college of ICE</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span2">2016</div>
+										<div class="news-content span10">Excellent Record Award for Top 3 Graduates in the college of ICE</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span2">2016</div>
+										<div class="news-content span10">Outstanding Undergraduate FYP Award in the college of ICE</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span2">2015</div>
+										<div class="news-content span10">The Excellence Award in Mobile App Competition</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span2">2013-2016</div>
+										<div class="news-content span10">SungKyunKwan University Scholarship for Excellent Records</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span2">2013-2015</div>
+										<div class="news-content span10">Dean's List Awards, 4 times at SKKU and once at HKUST</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+
+						<!--<div class="row-fluid">-->
+							<!--<div class="span12 list">-->
+								<!--<div class="section">Honors & Awards</div>-->
+									<!--<ul class="past">-->
+										<!--<li>2017-2019 <tab0><award>The Postgraduate Studentship</award></tab0></li>-->
+										<!--<li>2014-2016 <tab0><award>Samsung Scholarship for Undergraduate Study</award></tab0></li>-->
+										<!--<li>2013-2016 <tab0>SungKyunKwan University Scholarship for Excellent Records</tab0></li>-->
+										<!--<li>2016 <tab0><award>Honorable Mention</award> at the KIISE conference 2016</tab0></li>-->
+										<!--<li>2016 <tab0>Honored to be a Valedictorian in the college of ICE</tab0></li>-->
+										<!--<li>2016 <tab0>Excellent Record Award for Top 3 Graduates in the college of ICE</tab0></li>-->
+										<!--<li>2016 <tab0>Outstanding Undergraduate FYP Award in the college of ICE</tab0></li>-->
+										<!--<li>2015 <tab0><award>Honorable Mention</award> for undergraduate papers at the KIISE conference 2015</tab0></li>-->
+										<!--<li>2015 <tab0>The Excellence Award in Mobile App Competition</tab0></li>-->
+										<!--<li>2013-2015 <tab0>Dean's List Awards, 4 times at SKKU and once at HKUST</tab0></li>-->
+										<!--<li>2010-2013 <tab0><award>The National Scholarship for Science and Engineering</award></tab0></li>-->
+									<!--</ul>-->
+							<!--</div>-->
+					    <!--</div>-->
+						<hr>
+						<br>
+
+
+						<!--Selected Project-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Selected Projects</div>
+
+									<!--App Competition-->
+                                    <div class="project-entry hci social ai system nlp vision app undergraduate">
+                                        <div class="project-left span3"><a href="images/projects/beer4you/thumbnail.jpg"><img src="images/projects/beer4you/thumbnail.jpg"></a></div>
+                                        <div class="project-right span9"> <h4><a href="projects.html#undergraduate">Beer4You</a></h4>
+                                            Implemented an Android app which presents information on beers to users when they capture beers' logo using the image recognition. The app further recommends beers to users based on their previous search histories<br />
+                                            <award>Excellence Award (1st Runner-up, awarded US$1,000)</award><br>
+                                        <i><b>Competition, Conn App 2015</b></i><br />
+                                        [<a href="https://github.com/theyoungkwon/Beer4You/" target="_blank">Code</a> |
+                                            <a href="images/projects/beer4you/slides.pdf" target="_blank">Slides</a>]
+                                        <br />
+                                        <div class="tags hci social ai system nlp vision app undergraduate"></div>
+                                        </div>
+                                        <br>
+                                    </div>
+
+
+									<!-- <p>
+										<a href="projects.html">Competition, Conn App 2015</a><br>
+										<i>Member of Group &middot; Sep. 2015 ~ Dec. 2015</i><br>
+										&bull;<tab0>Implemented an Android app which presents information on beers to users when they capture beers' logo using the image recognition. The app further recommends beers to users based on their previous search histories</tab0><br>
+										&bull;<tab0>Achieved the <award>Excellence Award (1st Runner-up)</award> and awarded a total of US$1,000</tab0><br>
+									</p> -->
+
+									<!--International Workshops-->
+                                    <div class="project-entry hci social system nlp vision app undergraduate">
+                                        <div class="project-left span3"><a href="images/projects/sadi/thumbnail.png"><img src="images/projects/sadi/thumbnail.png"></a></div>
+                                        <div class="project-right span9"> <h4><a href="projects.html#undergraduate">Wearable of the future: ABOUT AR</a></h4>
+                                            Collaborated with a team of seven members from the various background such as the fashion design, product design, and computer science to develop a future product design in regard to augmented reality<br />
+                                        <i><b>International Workshop at Samsung Art and Design Institute 2015</b></i><br />
+                                        [<a href="images/projects/sadi/slides.pdf" target="_blank">Slides</a>]
+                                        <br />
+                                        <div class="tags hci social system nlp vision app undergraduate"></div>
+                                        </div>
+                                        <br>
+                                    </div>
+
+                                    <!-- <div class="media">
+						                <span class="pull-left"><br /><a href="images/HKUST_symbol.png" class="image"><img src="images/HKUST_symbol.png" width="128px"  alt="" /></a></span>
+						                <div class="media-body">
+						    				<p><b>Purchasing Pattern Recognition in Metropolis</b>,</p>
+						    				<p>Hancheng Cao, Xiaowen Dong, Alex 'Sandy' Pentland,</p>
+						                    <p>Jun 2017 - Present, <i><b>MIT Media Lab</b></i>,</p>
+						                    <p>We recognize the leading purchasing pattern of a major European city through a representation learning and Monte Carlo simulation based method. Leveraging a real-world transaction dataset from the country’s most popular bank, we analyze the city’s purchasing pattern at weekly and monthly level and investigate the relationship between purchasing behavior and user social-demographic features (e.g., sex, age, income, educational level, home location), churn pattern as well as social learning, which contribute to our understanding of the city's economic structure.
+					                        </p>
+						                </div>
+						            </div> -->
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+						<!--Professional Service-->
+						<div class="row-fluid">
+							<div class="span12 list">
+								<div class="section">Professional Service</div>
+
+								<p><b>Technical Program Committee</b></p>
+								<ul class="news">
+									<li class="row-fluid">
+										<div class="news-date span3">2022</div>
+										<div class="news-content span9"><a href="https://sensys.acm.org/2022/shadow/", target="_blank">ACM SenSys 2022 (Shadow PC)</a></div>
+									</li>
+
+									<li class="row-fluid">
+										<div class="news-date span3">2020</div>
+										<div class="news-content span9"><a href="https://infocom2020.ieee-infocom.org/workshop-pervasive-mobile-and-online-social-networking", target="_blank">INFOCOM 2020 HotPOST</a></div>
+									</li>
+								</ul>
+
+								<p><b>Reviewer</b></p>
+								<ul class="news">
+									<li class="row-fluid">
+										<div class="news-date span3">2022</div>
+										<div class="news-content span9"><a href="https://sites.google.com/view/ieee-vr-data4xr/", target="_blank">IEEE VR Workshop (DATA4XR)</a>, <a href="https://imwut.acm.org/", target="_blank">IMWUT</a> <a href="http://ubicomp.org/ubicomp2019/", target="_blank">(UbiComp)</a>
+										</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">2021</div>
+										<div class="news-content span9"><a href="https://imwut.acm.org/", target="_blank">IMWUT</a> <a href="http://ubicomp.org/ubicomp2019/", target="_blank">(UbiComp)</a>
+										</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">2020</div>
+										<div class="news-content span9"><a href="https://chi2020.acm.org/", target="_blank">CHI</a>, <a href="https://imwut.acm.org/", target="_blank">IMWUT</a> <a href="http://ubicomp.org/ubicomp2019/", target="_blank">(UbiComp)</a>
+										</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">2019</div>
+										<div class="news-content span9">
+											<a href="https://imwut.acm.org/", target="_blank">IMWUT</a> <a href="http://ubicomp.org/ubicomp2019/", target="_blank">(UbiComp)</a>,
+											<a href="http://cscw.acm.org/2019/", target="_blank">CSCW</a>,
+											<a href="http://ieeeaccess.ieee.org/", target="_blank">IEEE Access</a>,
+											<a href="https://link.springer.com/journal/13278", target="_blank">SNAM</a>
+										</div>
+									</li>
+									<li class="row-fluid">
+										<div class="news-date span3">2018</div>
+										<div class="news-content span9"><a href="http://ieeeaccess.ieee.org/", target="_blank">IEEE Access</a></div>
+									</li>
+								</ul>
+
+								<p><b>Student Volunteer</b></p>
+								<ul class="news">
+									<li class="row-fluid">
+										<div class="news-date span3">Sep 2019</div>
+										<div class="news-content span9"><a href="http://ubicomp.org/ubicomp2019/home.html", target="_blank">UbiComp/ISWC 2019</a></div>
+									</li>
+								</ul>
+
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+
+						<!--Misc.-->
+						<div class="row-fluid">
+							<div class="span12 list">
+                                <div class="section">Misc.</div>
+                                    <h4>Extra Activities</h4>
+                                        <p>
+                                            Rowing - Won silver medal in HKUST Indoor Rowing Competition in Apr 2015
+                                            | <a href="images/pics/rowing_silver_2015.jpg" target="_blank">photo</a><br>
+                                            Rowing - Won bronze medal in 2015 Hong Kong China Rowing Association Coastal Rowing Championships in Mar 2015
+                                            | <a href="images/pics/rowing_bronze_2015.jpg" target="_blank">photo</a><br>
+                                            Marathon - Completed half marathon (21.1km) 2 times in 2013 and 2014 <a href="images/pics/marathon_2014.JPG" target="_blank">(photo)</a><br>
+                                        </p>
+                                        <br>
+
+                                    <h4>Traveling</h4>
+                                        <p>
+                                            I love traveling to new places since I can meet entirely new people with different perspectives towards lives, worlds, etc.<br>
+                                            You can check countries I have visited <a href="files/travelmap.html" target="_blank">here in this web page</a>
+                                            <!--or <a href="images/pics/countries_been.png", target="_blank">here in this picture</a>-->
+                                        </p>
+
+							</div>
+					    </div>
+						<hr>
+						<br>
+
+						<!--Additional Widget for Coolness-->
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="section">Site Statistics</div>
+								<p><b>Visitor Counts</b></p>
+								<!-- hitwebcounter Code START style=0038 is also quite good-->
+								<a href="http://www.hitwebcounter.com" target="_blank">
+								<img src="http://hitwebcounter.com/counter/counter.php?page=7045416&style=0006&nbdigits=9&type=page&initCount=0" title="" Alt=""   border="0" >
+								</a>                                        <br/>
+								<!-- hitwebcounter.com -->
+								<p style="font-family: Arial, Helvetica, sans-serif;
+                                        font-size: 12px; color: #6B706A;">Enabled by
+								<a href="http://www.hitwebcounter.com" title="Hitwebcounter.com Free"
+                                        target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+                                        font-size: 12px; color: #6B706A;"><strong style="text-decoration: underline;">Hitwebcounter.com</strong>
+								</a>
+								</p>
+								<!--<br>-->
+								<script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=06otpnca3xj&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;s=250" async="async"></script>
+								<!--<script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=06otpnca3xj&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>-->
+								<!--<script type="text/javascript" src="//ra.revolvermaps.com/0/0/0.js?i=0g45ry7pg71&amp;d=3&amp;p=0&amp;b=0&amp;w=293&amp;g=2&amp;f=arial&amp;fs=12&amp;r=0&amp;c0=362b05&amp;c1=375363&amp;c2=000000&amp;ic0=0&amp;ic1=0" async="async"></script>-->
+
+							</div>
+						</div>
+						<br>
+
+					</div>
+               </div>
+
+            </div>
+
+
+			<footer>
+				<div class="container-fluid text-center">
+					<a href="#myPage" title="Back To Top" class="text-center">
+						<span class="icon-up-open text-center">Up</span><br>
+					</a>
+				</div>
+				<br>
+			</footer>
+
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="lib/FancyZoom1.1/js-global/FancyZoom.js" type="text/javascript"></script>
+		<script src="lib/FancyZoom1.1/js-global/FancyZoomHTML.js" type="text/javascript"></script>
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+		 $(document).ready(function(){
+			setupZoom();
+		 });
+	    </script>
+
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links in navbar + footer link
+		  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+			  // Store hash
+			  var hash = this.hash;
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 500, function(){
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+
+		  $(window).scroll(function() {
+			$(".slideanim").each(function(){
+			  var pos = $(this).offset().top;
+			  var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+				  $(this).addClass("slide");
+				}
+			});
+		  });
+		})
+		</script>
+    </body>
+</html>
