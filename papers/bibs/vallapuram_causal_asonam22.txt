@@ -1,10 +1,13 @@
-@inproceedings{vallapuram_causal_asonam22,
-author = {Vallapuram, Anish K. and Kwon, Young D. and Lee, Lik-Hang and Xu, Fengli and Hui, Pan},
-title = {Causal Analysis on the Anchor Store Effect in a Location-based Social Network},
-year = {2022},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-booktitle = {Proceedings of the 2022 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining},
-location = {Istanbul, Turkey, (Hybrid)},
-series = {ASONAM '21}
+@INPROCEEDINGS {vallapuram_causal_asonam22,
+	author = {A. K. Vallapuram and Y. D. Kwon and L. Lee and F. Xu and P. Hui},
+	booktitle = {2022 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)},
+	title = {Causal Analysis on the Anchor Store Effect in a Location-based Social Network},
+	year = {2022},
+	pages = {202-209},
+	keywords = {economics;industries;systematics;social networking (online);portals;open data;synthetic data},
+	doi = {10.1109/ASONAM55673.2022.10068687},
+	url = {https://doi.ieeecomputersociety.org/10.1109/ASONAM55673.2022.10068687},
+	publisher = {IEEE Computer Society},
+	address = {Los Alamitos, CA, USA},
+	month = {nov}
 }

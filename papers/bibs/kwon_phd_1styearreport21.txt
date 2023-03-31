@@ -1,7 +1,7 @@
 @book{kwon_phd_1styearreport21,
-    year = {2021},
-    title = {Efficient On-device Systems that can Sense, Learn, and Optimize Continually in the Wild},
-    language = {eng},
-    author = {Kwon, Young D.},
-    keywords = {On-device Learning, Mobile Systems, Continual Learning, Efficiency},
+  year = {2021},
+  title = {Efficient On-device Systems that can Sense, Learn, and Optimize Continually in the Wild},
+  language = {eng},
+  author = {Kwon, Young D.},
+  keywords = {On-device Learning, Mobile Systems, Continual Learning, Efficiency},
 }
