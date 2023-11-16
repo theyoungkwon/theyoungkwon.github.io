@@ -1,0 +1,6 @@
+@inproceedings{kwon_lifelearner_sensys23,
+  author={Kwon, Young D. and Chauhan, Jagmohan and Jia, Hong and Venieris, Stylianos I. and Mascolo, Cecilia},
+  booktitle={2023 21th ACM Conference on Embedded Networked Sensor Systems (SenSys)},
+  title={LifeLearner: Hardware-Aware Meta Continual Learning System for Embedded Computing Platforms},
+  year={2023}
+}
