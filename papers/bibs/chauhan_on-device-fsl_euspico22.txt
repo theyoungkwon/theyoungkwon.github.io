@@ -1,8 +1,0 @@
-@INPROCEEDINGS{chauhan_on-device-fsl_euspico22,
-  author={Chauhan, Jagmohan and Kwon, Young D. and Mascolo, Cecilia},
-  booktitle={2022 30th European Signal Processing Conference (EUSIPCO)}, 
-  title={Exploring On-Device Learning Using Few Shots for Audio Classification}, 
-  year={2022},
-  pages={424-428},
-  doi={10.23919/EUSIPCO55093.2022.9909551}
-}
