@@ -348,7 +348,7 @@ li{
 }
 
 .project-entry h4 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 .project-entry img{
@@ -361,7 +361,7 @@ li{
 	/*margin-right:10px;
 	margin-top:25px;
 	margin-bottom:10px;*/
-	margin: 1em 0 0 0;
+	margin: 0.9em 0 0 0;
 	border-radius: 0.5em;
 	border: 0.1em solid #dddddd;
 	box-shadow: 0 0 0.1em 0.1em #dddddd;
@@ -377,7 +377,7 @@ li{
 	float: left;
 	max-width: 430px;
 	margin-bottom: 1em;
-	margin-top: 0.5em;
+	margin-top: 0.6em;
 	padding-left: 0.5em;
 }
 
