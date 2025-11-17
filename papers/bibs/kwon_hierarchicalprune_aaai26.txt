@@ -1,0 +1,6 @@
+@inproceedings{kwon2026hierarchicalprune,
+    title     = {HierarchicalPrune: Position-Aware Compression for Large-Scale Diffusion Models},
+    author    = {Kwon, Young D. and Li, Rui and Li, Sijia and Li, Da and Bhattacharya, Sourav and Venieris, Stylianos I.},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    year      = {2026}
+}
