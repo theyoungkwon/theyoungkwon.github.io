@@ -1,0 +1,8 @@
+@inproceedings{
+xiao2026architectureagnostic,
+title={Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment},
+author={MA Xiao and Young D. Kwon and Pan Zhou and Dong Ma},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=7kLNGaAHaw}
+}
