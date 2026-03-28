@@ -1,0 +1,8 @@
+@inproceedings{
+xiao2026efficient,
+title={Efficient Test-Time Adaptation via Decoupled {BN} Update For Edge Devices},
+author={MA Xiao and Young D. Kwon and Dong Ma},
+booktitle={Third Workshop on Test-Time Updates (Main Track)},
+year={2026},
+url={https://openreview.net/forum?id=35oSXGUjDH}
+}

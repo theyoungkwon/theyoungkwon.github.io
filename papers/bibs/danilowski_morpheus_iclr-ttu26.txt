@@ -1,0 +1,8 @@
+@inproceedings{
+danilowski2026morpheus,
+title={{MORPHEUS}: Meta Test-Time Adaptation via Neural Collapse Geometry},
+author={Michal Danilowski and Alexander Murphy and Young D. Kwon and Abhirup Ghosh},
+booktitle={Third Workshop on Test-Time Updates (Main Track)},
+year={2026},
+url={https://openreview.net/forum?id=YfyApJH1Rj}
+}
