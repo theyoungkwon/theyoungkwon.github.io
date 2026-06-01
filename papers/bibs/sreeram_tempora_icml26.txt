@@ -1,0 +1,6 @@
+@inproceedings{sreeram2026tempora,
+    title     = {Tempora: Characterising the Time-Contingent Utility of Online Test-Time Adaptation},
+    author    = {Sreeram, Sudarshan and Kwon, Young D. and Mascolo, Cecilia},
+    booktitle = {International Conference on Machine Learning},
+    year      = {2026}
+}
