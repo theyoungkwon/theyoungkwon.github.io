@@ -1,0 +1,9 @@
+@misc{kwon2026whiflash,
+    title={WhiFlash: Accelerating Speculative Decoding with Token-Level Cross-Paradigm Routing},
+    author={Young D. Kwon and Miles Williams and Rui Li and Alexandros Kouris and Stylianos I. Venieris},
+    year={2026},
+    eprint={2606.07710},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2606.07710},
+}
