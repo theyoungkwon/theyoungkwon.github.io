@@ -1,0 +1,16 @@
+@inproceedings{kwon2026ondeviceml,
+author = {Kwon, Young D.},
+title = {Efficient On-Device Intelligence: From Continual Adaptation to Generative AI on Edge Devices},
+year = {2026},
+isbn = {9798400727115},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3812835.3814808},
+doi = {10.1145/3812835.3814808},
+booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Companion},
+pages = {86–87},
+numpages = {2},
+keywords = {efficient ML, generative AI, LLM acceleration, diffusion model compression, continual learning, test-time adaptation, speculative decoding, mobile systems, edge computing, IoT},
+location = {University of Cambridge, Cambridge, United Kingdom},
+series = {MobiSys Companion '26}
+}
