@@ -1,0 +1,9 @@
+@article{corti2026interaction,
+  title = {On the {Interaction} {Between} {Model} {Compression} and {Test}-{Time} {Adaptation}},
+  url = {https://openreview.net/forum?id=aMcPqVyYhd},
+  language = {en},
+  urldate = {2026-08-08},
+  author = {Corti, Francesco and Wang, Dong and Kwon, Young D. and Mascolo, Cecilia and Saukh, Olga},
+  month = apr,
+  year = {2026},
+}
