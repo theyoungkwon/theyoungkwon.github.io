@@ -205,16 +205,10 @@ img:hover{
 }
 
 
-.award-ic {
-	width: 13px;
-	height: 13px;
-	fill: none;
-	stroke: currentColor;
-	stroke-width: 2;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	vertical-align: -2px;
-	margin-right: 4px;
+award.trophy::before {
+	/* ★ — marks a genuine award; plain <award> stays unmarked */
+	content: "\2605";
+	margin-right: 0.35em;
 }
 
 award {
