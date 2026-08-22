@@ -1,0 +1,21 @@
+@inproceedings{williams-etal-2026-speculative,
+    title = "Speculative Decoding with a Speculative Vocabulary",
+    author = "Williams, Miles  and
+      Kwon, Young D.  and
+      Li, Rui  and
+      Kouris, Alexandros  and
+      Venieris, Stylianos I.",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.2000/",
+    doi = "10.18653/v1/2026.findings-acl.2000",
+    pages = "40240--40254",
+    ISBN = "979-8-89176-395-1"
+}
