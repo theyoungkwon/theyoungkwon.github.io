@@ -1,6 +1,6 @@
 @article{ma2026emboditta,
 	title = {EmbodiTTA: Resource-Efficient Test-Time Adaptation for Embodied Visual Systems},
-	journal = {IEEE IoT Journal},
+	journal = {IEEE Internet of Things Journal},
 	year = {2026},
-	author = {MA Xiao and Young D. Kwon and Dong Ma}
+	author = {Xiao Ma and Young D. Kwon and Dong Ma}
 }
