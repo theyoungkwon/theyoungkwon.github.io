@@ -1,0 +1,7 @@
+@inproceedings{urban2026margins,
+    title={{Margins, Not Windows: Training-Free Per-Step Lossy Speculative Decoding}},
+    author={Oszk{\'a}r Urb{\'a}n and Young D. Kwon and Stylianos I. Venieris and Cecilia Mascolo},
+    booktitle={Neurips 2026 Workshop - LIGHT: Deployable Small Foundation Models},
+    year={2026},
+    url={https://openreview.net/forum?id=R37vrkbrjH}
+}

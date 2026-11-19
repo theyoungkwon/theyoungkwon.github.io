@@ -1,6 +1,11 @@
-@article{ma2026emboditta,
-	title = {EmbodiTTA: Resource-Efficient Test-Time Adaptation for Embodied Visual Systems},
-	journal = {IEEE Internet of Things Journal},
-	year = {2026},
-	author = {Xiao Ma and Young D. Kwon and Dong Ma}
+@ARTICLE{ma2026emboditta,
+  author={Ma, Xiao and Kwon, Young D. and Ma, Dong},
+  journal={IEEE Internet of Things Journal},
+  title={EmbodiTTA: Resource-Efficient Test-Time Adaptation for Embodied Visual Systems},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Modeling;Memory;Testing;Timing;Entropy;Accuracy;Signal detection;Statistics;Conferences;Streams;Embodied AI;Mobile Vision;Domain Adaptation;Test-Time Adaptation},
+  doi={10.1109/JIOT.2026.3738781}
 }

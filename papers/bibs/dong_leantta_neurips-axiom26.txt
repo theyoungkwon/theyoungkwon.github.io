@@ -1,0 +1,7 @@
+@inproceedings{dong2026leantta,
+    title={{LeanTTA: A Backpropagation-Free, Stateless Approach to On-Device Test-Time Adaptation}},
+    author={Cynthia Dong and Young D. Kwon and Hong Jia and Georgios Rizos and Cecilia Mascolo},
+    booktitle={AXIOM: Foundations of Efficient Deep Learning},
+    year={2026},
+    url={https://openreview.net/forum?id=SLWIsAoP8N}
+}

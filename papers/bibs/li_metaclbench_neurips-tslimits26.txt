@@ -1,0 +1,7 @@
+@inproceedings{li2026metaclbench,
+    title={{MetaCLBench: Benchmarking the On-Device Adaptation Cost of Meta-Continual Learning}},
+    author={Sijia Li and Young D. Kwon and LIK-HANG LEE and Pan Hui},
+    booktitle={Workshop TS-LIMITS @NeurIPS 2026 -- Generalization for Time Series in Tight Settings: Latency, Inference, Memory, prIvacy and susTainability},
+    year={2026},
+    url={https://openreview.net/forum?id=usPK9ZP0fg}
+}

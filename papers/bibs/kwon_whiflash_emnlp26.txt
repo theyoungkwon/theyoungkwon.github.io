@@ -1,9 +1,21 @@
-@misc{kwon2026whiflash,
-    title={WhiFlash: Accelerating Speculative Decoding with Token-Level Cross-Paradigm Routing},
-    author={Young D. Kwon and Miles Williams and Rui Li and Alexandros Kouris and Stylianos I. Venieris},
-    year={2026},
-    eprint={2606.07710},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    url={https://arxiv.org/abs/2606.07710},
+@inproceedings{kwon-etal-2026-whiflash,
+    title = "{W}hi{F}lash: Accelerating Speculative Decoding with Token-Level Cross-Paradigm Routing",
+    author = "Kwon, Young D.  and
+      Williams, Miles  and
+      Li, Rui  and
+      Kouris, Alexandros  and
+      Venieris, Stylianos I.",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.633/",
+    doi = "10.18653/2026.findings-emnlp.633",
+    pages = "13286--13303",
+    ISBN = "979-8-89176-462-0"
 }

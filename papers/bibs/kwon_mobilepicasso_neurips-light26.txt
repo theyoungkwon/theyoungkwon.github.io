@@ -1,0 +1,7 @@
+@inproceedings{kwon2026ondevice,
+    title={{On-device High-Resolution Image Editing with Hallucination-Aware Loss and Adaptive Tiling}},
+    author={Young D. Kwon and Abhinav Mehrotra and Malcolm Chadwick and Alberto Gil Couto Pimentel Ramos and Sourav Bhattacharya},
+    booktitle={Neurips 2026 Workshop - LIGHT: Deployable Small Foundation Models},
+    year={2026},
+    url={https://openreview.net/forum?id=ZVi8F1EkkF}
+}
